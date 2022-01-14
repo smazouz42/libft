@@ -6,7 +6,7 @@
 /*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 15:34:15 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/13 14:14:18 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:12:22 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static char	**free_tab(char	**tab)
 		free(tab[x]);
 		x++;
 	}
-	free(tab[x]);
+	free(tab);
 	return (NULL);
 }
 
