@@ -6,13 +6,11 @@
 /*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 12:09:08 by smazouz           #+#    #+#             */
-/*   Updated: 2022/01/14 15:16:18 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 16:55:52 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-void	ft_putchar_fd(char c, int fd);
 
 void	ft_putstr_fd(char *s, int fd)
 {
