@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 11:25:02 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 11:26:21 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:15:45 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ t_list	*ft_lstnew(void *content)
 	list->next = NULL;
 	return (list);
 }
-/*
-int main(void)
-{
-	char a[20]= "lol";
-	t_list *lst;
-
-	lst = ft_lstnew(a);
-	printf("%s",lst->content);
-}
-*/

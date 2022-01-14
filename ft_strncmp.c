@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 09:17:29 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:20:38 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:17:00 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	ft_putnbr(ft_strncmp("said","sapd",3));
-}
-*/

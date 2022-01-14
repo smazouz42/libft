@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 12:03:06 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 00:24:03 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:15:33 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,10 +58,3 @@ char	*ft_itoa(int n)
 	str[y] = nb + '0';
 	return (str);
 }
-/*
-int main(void)
-{
-	printf("%s",ft_itoa(300));
-	return(0);
-}
-*/

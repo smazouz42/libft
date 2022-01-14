@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 09:14:44 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 16:15:37 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:49 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t destsize)
 	dst[i] = '\0';
 	return (l);
 }
-/*
-int main(void)
-{
-	char s[]="specter";
-	char d[6]="said";
-	ft_putnbr(ft_strlcpy(d,s,6));
-	return (0);
-}
-*/

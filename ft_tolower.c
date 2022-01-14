@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 16:38:50 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 14:38:32 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:17:18 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-/*
-int main(void)
-{
-	ft_putchar(ft_tolower('b'));
-	ft_putchar('n');
-	ft_putchar(ft_tolower('b'));
-	return(0);
-}
-*/

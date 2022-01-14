@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 11:12:11 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 11:12:56 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:15:36 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	{
 		node = ft_lstlast(*lst);
 		node->next = new;
-	}	
+	}
 }

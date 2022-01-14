@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 11:37:12 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/13 01:19:37 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:17:04 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	char s[]="MZIRIBMZIRIBMZE123";
-	char d[]= "MZIRIBMZE";
-	printf("%s",ft_strnstr(s,d,40));
-}
-*/

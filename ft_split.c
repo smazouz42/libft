@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 15:34:15 by smazouz           #+#    #+#             */
-/*   Updated: 2022/01/14 15:12:22 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:23 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,15 +94,3 @@ char	**ft_split(char const *s, char c)
 	str[i] = NULL;
 	return (str);
 }
-/*
-int    main(void)
-{
-  char **p;
-	int i;
-	char s[]="";
-	p = ft_split("", ' ');
-	i = 0;
-	  printf("%s\n",p[0]);
-	  return(0);
-}
-*/

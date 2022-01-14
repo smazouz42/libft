@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 21:56:49 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 00:26:59 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:17:12 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,10 +64,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, (char *)(s1 + start), end - start + 1);
 	return (str);
 }
-/*
-int main(void)
-
-{
-	printf("%s",ft_strtrim("aaaa","a"));
-}
-*/

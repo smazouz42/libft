@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 09:08:16 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:27:24 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:33 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,3 @@ char	*ft_strdup(const char *s1)
 	dst[i] = '\0';
 	return (dst);
 }
-/*
-int	main(void)
-{
-	char s[]="specter";
-	ft_putstr(ft_strdup(s));
-	return(0);
-}
-*/

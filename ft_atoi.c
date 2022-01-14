@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 19:24:22 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:26:36 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:14:52 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,12 +40,3 @@ int	ft_atoi(const char *str)
 	else
 		return (res);
 }
-/*
-int main(void)
-{
-	ft_putnbr(ft_atoi("99999999999999999999"));
-	ft_putchar('\n');
-	ft_putnbr(atoi("9999999999999999999"));
-	return(0);
-}
-*/

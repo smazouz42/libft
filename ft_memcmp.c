@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 08:51:27 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:29:27 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:15:55 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,22 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(void)
-{
-	char *s1 = "qpecter";
-	char *s2 = "owectel";
-	ft_putnbr(ft_memcmp(s1,s2,4));
-	ft_putchar('\n');
-	ft_putnbr(memcmp(s1;
-	a = &b;
-	int *s;
-	int j = 2;
-	s = &j;
-	memcmp(a,s,16);
-	ft_putnbr(b);
-
-	return(0);
-} *ptr = null
-ptr == null
-*/

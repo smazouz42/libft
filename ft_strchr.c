@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 09:05:29 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:16:29 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:29 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*
-int main(void)
-{
-	const char s[]="speter";
-	printf("%s", ft_strchr(s,'e'));
-}
-*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 18:37:33 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 00:26:22 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:42 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,12 +42,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	dst[i] = '\0';
 	return (dst);
 }
-/*
-int main(void)
-{
-    char s[]="specter";
-    char d[]="said";
-    ft_putstr(ft_strjoin(s,d));
-    return(0);
-}
-*/

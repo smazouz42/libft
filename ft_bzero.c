@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 19:27:44 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 15:22:11 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:14:52 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,3 @@ void	ft_bzero(void *s, size_t n)
 		x++;
 	}
 }
-/*
-int	main(void)
-{
-	const char s[]="specter";
-	ft_bzero(s,2);
-
-}
-*/

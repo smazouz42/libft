@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 14:01:36 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 00:27:14 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 16:02:21 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include"libft.h"
+#include "libft.h"
 
 size_t	ft_strlen(const char *s);
 
@@ -42,10 +42,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[x] = '\0';
 	return (str);
 }
-/*
-int	main(void)
-{
-	char const	s[]="mohamed";
-	printf("%s", ft_substr(s,2,1));
-}
-*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:39:11 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 00:26:49 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:58 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,17 +35,3 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	str[x] = '\0';
 	return ((char *)str);
 }
-/*
-char	ft_test(unsigned  int x,char c )
-{
-	x = 1;
-	c = c + 1;
-	return(c);
-}
-
-int main(void)
-{
-	char s[]="abc";
-	ft_putstr(ft_strmapi(s, ft_test));
-}
-*/

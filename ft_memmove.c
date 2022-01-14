@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 00:36:58 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 17:20:27 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:05 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-/*
-int	main(void)
-{
-	char dst[] = "specter is the best";
-	printf("%s",ft_memmove(dst,(dst + 3), 5));
-}
-*/

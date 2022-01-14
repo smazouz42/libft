@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: smazouz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: smazouz <smazouz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 09:11:27 by smazouz           #+#    #+#             */
-/*   Updated: 2021/11/12 16:15:29 by smazouz          ###   ########.fr       */
+/*   Updated: 2022/01/14 15:16:46 by smazouz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,15 +38,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (res);
 }
-/*
-int main(void)
-{
-	char s[10]="specter";
-	char d[6]= "said";
-	ft_putnbr(ft_strlcat(d,s,2));
-	ft_putnbr(strlcat(d,s,2));
-	ft_putchar('\n');
-	ft_putstr(d);
-	return(0);
-}
-*/
